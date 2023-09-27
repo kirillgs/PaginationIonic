@@ -1,0 +1,5 @@
+  <table>
+    <tr *ngFor="let row of table; let index = index">
+      <td *ngFor="let column of columns" [ngClass]="index % 2 === 0 ? 'even' : ''">{{text[index]}}</td>
+    </tr>
+  </table>

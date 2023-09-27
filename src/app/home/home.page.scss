@@ -1,0 +1,18 @@
+table {
+  border-style: solid; 
+  border-width: 1px;
+  border-radius: 2px; 
+  border-color: cyan;
+}
+
+td {
+  border-style: solid; 
+  border-width: 1px;
+  border-color: lightcyan;
+  padding: 7px 7px 7px 7px;
+  page-break-inside: avoid;
+}
+
+.even {
+  background-color: lightsteelblue;
+}
